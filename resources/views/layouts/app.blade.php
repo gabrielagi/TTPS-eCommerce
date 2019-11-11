@@ -15,7 +15,6 @@
     <script src="{{ asset('js/jquery-3.4.1.min.js') }}" defer></script>
     <script src="{{ asset('js/popper.min.js') }}" defer></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/main.js') }}" defer></script>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
@@ -31,7 +30,7 @@
 </head>
 <body>
     <div id="app">
-        <main>
+        <main class="py-4">
             @yield('content')
         </main>
     </div>

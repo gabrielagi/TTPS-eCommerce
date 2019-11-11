@@ -20,11 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Ir a la vista costumer desde la URL
-Route::get('/customer', function () {
-    return view('layouts/customer');
-});
-
-//Ir a la vista Index desde la URL
-Route::get('/index', function () {
-    return view('index');
+Route::get('/searchresult', function () {
+    return view('layouts/searchresult');
 });

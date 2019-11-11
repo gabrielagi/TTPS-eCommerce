@@ -14,11 +14,18 @@
             </ul>
             <ul class="navbar-nav m-auto search-box">
               <!-- Search form -->
-              <input class="form-control search-box-border" type="text" placeholder="Search something you love" aria-label="Search">
+              <input class="form-control search-box-border" type="text" placeholder="Search" aria-label="Search">
               <div class="input-group-prepend">
                     <span class="input-group-text cyan lighten-2 glass" id="basic-text1"><i class="fas fa-search text-white"
                         aria-hidden="true"></i></span>
                   </div>
+            </ul>
+
+            <!-- Cart icon -->
+            <ul class="navbar-nav ml-auto">
+                <div class="text-right">
+                    <a href="/welcome" class="font2"><i class="fas fa-shopping-cart shopping-cart mr-2"></i>Carrito</a>
+                </div>
             </ul>
                 
             <!-- Right Side Of Navbar -->
