@@ -23,3 +23,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/searchresult', function () {
     return view('layouts/searchresult');
 });
+
+Route::get('/publicationdetail', function () {
+    return view('layouts/publicationdetail');
+});
+
+Route::get('/contact', function () {
+    return view('layouts/contact');
+});
+
+Route::get('/cart', function () {
+    return view('layouts/cart');
+});
